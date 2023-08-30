@@ -69,7 +69,7 @@ p {
    border-left: 1px solid yellow;
 }
 
-.featured a {
+a {
    color: rgb(91, 91, 168);
 }
 
@@ -81,11 +81,40 @@ p {
    border-bottom: 1px solid rgba(204, 204, 204, 0.481);
 }
 
-.ingredients {
+/* .ingredients {
+   margin-bottom: 2.5em;
+} */
+
+.title-ingredients {
+   list-style: none;
+}
+
+.title-method {
+   margin-left: 1em;
+}
+
+.title-ingredients,
+.title-method {
+   font-weight: bold;
+   font-size: 1.4em;
+   margin-bottom: 0.7em;
+}
+
+ul.itmes-secondary {
    margin-bottom: 2.5em;
 }
 
-h3 {
+.itmes-secondary li {
+   font-size: 1.2em;
+   margin: 0.6em auto 0.6em 2em;
+}
+
+.method-text {
+   list-style: none;
+   margin-left: 1em !important;
+}
+
+/* h3 {
    font-size: 1.4em;
    margin-bottom: 0.7em;
 }
@@ -93,4 +122,4 @@ h3 {
 ul li {
    font-size: 1.2em;
    margin: 0.6em auto 0.6em 2em;
-}
+} */
